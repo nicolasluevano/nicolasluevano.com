@@ -109,11 +109,11 @@ main {
   position: relative;
 }
 
-.pro img {
+/* .pro img {
   position: absolute;
   top: -10%;
   right: 10%;
-}
+} */
 .pro h2 {
   width: 40%;
   color: white;
@@ -158,10 +158,10 @@ main {
   justify-content: space-between;
 }
 
-.card img{
+/* .card img{
   width: 15em;
   border-radius: 1rem;
-}
+} */
 
 .progress {
   background: linear-gradient(to right top, #356fe2, #2479ef);
