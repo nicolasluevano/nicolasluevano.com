@@ -26,7 +26,7 @@ h3 {
 main {
   font-family: "Poppins", sans-serif;
   min-height: 100vh;
-  background: linear-gradient(to right top, #65dfc9, #6cdbeb);
+  background: linear-gradient(to right top, #c5c6d4, #005A9C);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -164,7 +164,7 @@ main {
 }
 
 .progress {
-  background: linear-gradient(to right top, #65dfc9, #6cdbeb);
+  background: linear-gradient(to right top, #356fe2, #2479ef);
   width: 100%;
   height: 25%;
   border-radius: 1rem;
