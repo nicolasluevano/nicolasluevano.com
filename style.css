@@ -212,10 +212,6 @@ main {
     margin: 1rem 0;
   }
 
-  .circle1, .circle2 {
-    display: none;
-  }
-
   .games {
     display: inline;
   }

@@ -43,7 +43,7 @@
 //   .then(result => console.log(result))
 //   .catch(error => console.log('error', error));
 
-fetch(`http://ws.audioscrobbler.com/2.0/?method=user.getrecenttracks&user=nluevano&api_key=762fd9f6a6bcb057f0149362495056fd&limit=1&format=json`)
+fetch(`http://ws.audioscrobbler.com/2.0/?method=user.getrecenttracks&user=nluevano&api_key=7a139c1d91c75eff3c9a14743bb28044&limit=1&format=json`)
 		.then(res => res.json())
         .then(data => {
 			console.log(data)
@@ -55,3 +55,6 @@ fetch(`http://ws.audioscrobbler.com/2.0/?method=user.getrecenttracks&user=nlueva
 		.catch(err => {
 		console.error(err);
 		})
+
+        // new API key : 	7a139c1d91c75eff3c9a14743bb28044
+        // old API key :   762fd9f6a6bcb057f0149362495056fd
