@@ -43,3 +43,15 @@
 //   .then(result => console.log(result))
 //   .catch(error => console.log('error', error));
 
+fetch(`http://ws.audioscrobbler.com/2.0/?method=user.getrecenttracks&user=nluevano&api_key=762fd9f6a6bcb057f0149362495056fd&limit=1&format=json`)
+		.then(res => res.json())
+        .then(data => {
+			console.log(data)
+            let artistName = data.recenttracks.track[0].artist["#text"]
+            let songName = data.recenttracks.track[0].name
+            document.querySelector('#song-name').innerText = songName
+            document.querySelector('#artist-name').innerText = artistName
+		})
+		.catch(err => {
+		console.error(err);
+		})
