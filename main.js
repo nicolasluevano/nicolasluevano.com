@@ -43,7 +43,7 @@
 //   .then(result => console.log(result))
 //   .catch(error => console.log('error', error));
 
-fetch(`http://ws.audioscrobbler.com/2.0/?method=user.getrecenttracks&user=nluevano&api_key=7a139c1d91c75eff3c9a14743bb28044&limit=1&format=json`)
+fetch(`https://ws.audioscrobbler.com/2.0/?method=user.getrecenttracks&user=nluevano&api_key=7a139c1d91c75eff3c9a14743bb28044&limit=1&format=json`)
 		.then(res => res.json())
         .then(data => {
 			console.log(data)
