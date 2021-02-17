@@ -23,6 +23,17 @@ h3 {
   opacity: 0.8;
 }
 
+.project-links {
+  border: 2px solid #426696;
+  border-radius: .25rem;
+  color: #426696;
+  text-decoration: none;
+  padding: .25rem;
+  
+}
+
+
+
 main {
   font-family: "Poppins", sans-serif;
   min-height: 100vh;
@@ -204,8 +215,12 @@ main {
     width: 90%;
   }
 
-  h2 {
+  .link h2{
     font-size: 1rem;
+  } 
+
+  .project-links {
+    font-size: .75em;
   }
 
   .circle1, .circle2 {
