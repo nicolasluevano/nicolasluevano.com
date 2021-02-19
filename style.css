@@ -35,6 +35,12 @@ a>h2:hover {
   color: #426696;
 }
 
+#song-name{
+  text-decoration: underline;
+}
+
+
+
 .project-links {
   border: 2px solid #426696;
   border-radius: .25rem;

@@ -43,6 +43,7 @@
 //   .then(result => console.log(result))
 //   .catch(error => console.log('error', error));
 
+
 fetch(`https://ws.audioscrobbler.com/2.0/?method=user.getrecenttracks&user=nluevano&api_key=7a139c1d91c75eff3c9a14743bb28044&limit=1&format=json`)
 		.then(res => res.json())
         .then(data => {
@@ -51,6 +52,7 @@ fetch(`https://ws.audioscrobbler.com/2.0/?method=user.getrecenttracks&user=nluev
             let songName = data.recenttracks.track[0].name
             document.querySelector('#song-name').innerText = songName
             document.querySelector('#artist-name').innerText = artistName
+            document.querySelector('#song-name').href = `https://www.youtube.com/results?search_query=${songName}+${artistName}`
 		})
 		.catch(err => {
 		console.error(err);
