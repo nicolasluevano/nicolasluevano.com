@@ -9,6 +9,7 @@ h1 {
   font-weight: 600;
   font-size: 3rem;
   opacity: 0.8;
+  text-align: center;
 }
 h2,
 p {
@@ -147,6 +148,7 @@ main {
 .status {
   margin-bottom: 3rem;
 }
+
 
 .status input {
   background: linear-gradient(
