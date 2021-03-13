@@ -1,5 +1,5 @@
 # Portfolio
-My portfolio site that is home to all my contact information, recent projects and even an API that shows the last song that I listened to on Spotify.
+My portfolio site that is home to all my contact information, recent projects and even fetches from an API that shows the last song that I listened to on Spotify.
 
 **Link to project:** https://nicolasluevano.com
 
