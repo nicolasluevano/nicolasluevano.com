@@ -7,7 +7,7 @@ My portfolio site that is home to all my contact information, recent projects an
 
 ## How It's Made:
 
-**Tech used:** HTML, CSS, JavaScript, 
+**Tech used:** HTML, CSS, JavaScript 
 
 
 ## Lessons Learned:
