@@ -218,6 +218,10 @@ main {
   -webkit-text-fill-color: transparent;
 }
 
+.tech {
+  margin-top: 1rem;
+}
+
 /* MEDIA QUERIES */
 
 /*----------Mobile---------*/
