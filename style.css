@@ -206,6 +206,7 @@ main {
   left: 60%;
 }
 .card-info {
+  width: 100%; /*fixed link buttons from not lining up*/
   display: flex;
   flex-direction: column;
   justify-content: space-between;
