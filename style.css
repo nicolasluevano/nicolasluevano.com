@@ -212,12 +212,12 @@ main {
   justify-content: space-between;
 }
 
-.percentage {
+/* .percentage {
   font-weight: bold;
   background: linear-gradient(to right top, #65dfc9, #6cdbeb);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-}
+} */
 
 .tech {
   margin-top: 1rem;
